@@ -1,0 +1,24 @@
+.logo{
+    width: 100px;
+}
+header .dropdown-toggle::after {
+    display: none;
+}
+header .dropdown-item:focus, .dropdown-item:hover {
+    color: var(--bs-light);
+    opacity: 100!important;
+    background-color: var(--blue)!important;
+}
+
+@media (max-width: 768px){
+    header .row:first-child{
+        background-color: var(--blue);
+    }
+    header .row:first-child .bi-list{
+        color: var(--bs-light)!important;
+    }
+    header .row:first-child .like-btn{
+        background-color: var(--blue-dark);
+        border: none!important;
+    }
+}

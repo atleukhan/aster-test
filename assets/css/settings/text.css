@@ -1,0 +1,21 @@
+.text-blue{
+    color: var(--blue);
+}
+.text-blue-dark{
+    color: var(--blue-dark);
+}
+.text-dark{
+    color: var(--dark);
+}
+.text-red{
+    color: var(--red);
+}
+.text-h{
+    font-weight: 700;
+}
+.text-sm{
+    font-size: 14px;
+}
+.text-xs{
+    font-size: 10px;
+}

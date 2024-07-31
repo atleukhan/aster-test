@@ -1,0 +1,11 @@
+.rotate{
+    transform: rotate(45deg);
+}
+@media (max-width: 768px){
+    .hero-slogan{
+        padding: 0!important;
+        border-radius: none!important;
+        background-color: transparent!important;
+        color: var(--bs-light)!important;
+    }
+}

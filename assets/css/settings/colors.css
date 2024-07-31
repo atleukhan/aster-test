@@ -1,0 +1,12 @@
+.bg-blue{
+    background-color: var(--blue);
+}
+.bg-blue-light{
+    background-color: var(--blue-light);
+}
+.bg-red{
+    background-color: var(--red);
+}
+.bg-red-gradient{
+    background: radial-gradient(685.95% 144.19% at 50% 54.25%, #CD3434 0%, #360002 100%);;
+}

@@ -1,0 +1,33 @@
+/* setting */
+@import url(settings/text.css);
+@import url(settings/colors.css);
+@import url(settings/buttons.css);
+@import url(settings/images.css);
+
+/* components */
+@import url(components/header.css);
+@import url(components/footer.css);
+
+/* pages */
+@import url(pages/home.css);
+
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --blue: #0066CC;
+    --blue-light: #F2F7FF;
+    --blue-dark: #1570EF;
+    --dark: #1E385B;
+    --green: #00BE5A;
+    --red: #F04438;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    transition: all .2s ease-in-out;
+    text-decoration: none!important;
+}

@@ -1,0 +1,7 @@
+.footer-nav-link a{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer-nav-link a:last-child{
+    margin:0;
+}
