@@ -15,7 +15,7 @@ let navItem = "";
     desktopNav.forEach(item=>{
         navItem += `
             <li class="desktop-nav-item d-flex align-items-center">
-                <a class="text-light">${item.title}</a>
+                <a href="" class="text-light">${item.title}</a>
                 <span class="py-1 px-2 rounded-5 bg-red text-light text-xs ms-1 text-uppercase">${item.state}</span>
             </li>`;
     });
